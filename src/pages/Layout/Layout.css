@@ -1,0 +1,28 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  padding: 0 0.5rem;
+}
+
+.nav-list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  font-size: 0.9rem;
+}
+
+.nav-list-primary {
+  margin: 0 auto;
+}
+
+.nav-item + .nav-item {
+  margin-left: 1em;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
