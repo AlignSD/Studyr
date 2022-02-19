@@ -1,0 +1,51 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 100%;
+
+  border-radius: 10px;
+  box-shadow: 1px 2px 2px rgb(226, 226, 226), -2px -1px 1px rgb(226, 226, 226),
+    2px -1px 1px rgb(226, 226, 226), -2px 1px 1px rgb(226, 226, 226);
+
+  width: 30%;
+  max-width: 100%;
+  margin-top: 2rem;
+
+  text-align: center;
+  text-decoration: none;
+}
+
+.card-image {
+  object-fit: cover;
+}
+
+.card-body {
+  padding: 0 0.5rem;
+}
+
+@media (max-width: 1028px) {
+  .card {
+    width: 45%;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    width: 100%;
+    max-width: 80%;
+    margin-bottom: 2rem;
+  }
+  .card-image {
+    object-fit: fill;
+  }
+}
+@media (max-width: 550px) {
+  .card {
+    width: 100%;
+    max-width: 100%;
+  }
+}
+
+img {
+  border-radius: inherit;
+}
