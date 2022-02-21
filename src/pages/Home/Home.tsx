@@ -3,6 +3,7 @@ import { Cards } from '../../components/Cards/Cards'
 import '../../index.css';
 
 export class Home extends Component {
+  
   render() {
     return (
       <>
